@@ -21,3 +21,6 @@ body{
 .card-body{
   padding: 0px 
 }
+.card-text{
+  font-family: 'Salsa', cursive;
+}
