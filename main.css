@@ -24,3 +24,13 @@ body{
 .card-text{
   font-family: 'Salsa', cursive;
 }
+
+.card{
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.out{
+  position: absolute;
+  left: -100px;
+}
