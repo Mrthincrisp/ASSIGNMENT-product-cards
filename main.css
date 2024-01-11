@@ -1,3 +1,23 @@
 body{
   background-color: rgb(255, 255, 255);
 }
+.card-title {
+  border: solid 1px lightblue;
+}
+.card-text{
+  text-align: justify;
+}
+
+.specs{
+  font-weight: bold;
+}
+.Price{
+  font-weight: bold;
+}
+.availability{
+  background-color: gray;
+  color: yellow;
+}
+.card-body{
+  padding: 0px 
+}
