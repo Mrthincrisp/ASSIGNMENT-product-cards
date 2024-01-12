@@ -1,21 +1,37 @@
 body{
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(103, 132, 155);
 }
-.card-title {
+
+.card {  
+  display: flex;
+  flex-direction: column;
+}
+.tmbl{
+  padding: 2px;
+}
+.card-title{
   border: solid 1px lightblue;
 }
 .card-text{
+  align-items: baseline;
   text-align: justify;
+  
 }
-
+.foot{
+  border-top: 1px solid rgba(167, 162, 162, 0.427);
+  border-bottom: dashed 1px;
+  padding: 8px 16px;
+}
 .specs{
   font-weight: bold;
+  border-bottom: dashed 1px;
+  margin: 0px;
 }
 .Price{
   font-weight: bold;
 }
 .availability{
-  background-color: gray;
+  background-color: darkgray;
   color: yellow;
 }
 .card-body{
@@ -26,11 +42,14 @@ body{
 }
 
 .card{
+  
   position: relative;
   top: 0;
   left: 0;
+  margin-bottom: 20px;
 }
 .out{
   position: absolute;
-  left: -100px;
+  top: 100px;
+  width: 90%;
 }
